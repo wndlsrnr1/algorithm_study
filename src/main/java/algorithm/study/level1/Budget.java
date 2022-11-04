@@ -1,6 +1,9 @@
 package algorithm.study.level1;
 
 public class Budget {
+    /*
+    https://school.programmers.co.kr/learn/courses/30/lessons/12982
+     */
     static int max = 0;
 
     void dfs(int[] d, int budget, int index, boolean[] marked, int stackDepth){
