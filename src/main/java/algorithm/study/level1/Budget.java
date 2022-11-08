@@ -2,7 +2,9 @@ package algorithm.study.level1;
 
 public class Budget {
     /*
+
     https://school.programmers.co.kr/learn/courses/30/lessons/12982
+
      */
     static int max = 0;
 
@@ -18,11 +20,13 @@ public class Budget {
         }
 
         int count = 0;
+
         for (int i = 0; i < marked.length; i++) {
             if (marked[i]){
                 count++;
             }
         }
+
         if (count > max) {
             max = count;
         }
@@ -54,4 +58,5 @@ public class Budget {
         int max = getMax(d, budget);
         return max;
     }
+
 }
